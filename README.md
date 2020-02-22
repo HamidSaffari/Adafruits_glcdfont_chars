@@ -6,10 +6,10 @@ for(byte x=0; x<255; x++) {
     tft.print((char)x);
   }
 
-/IMG_20200222_053426.jpg
+(/IMG_20200222_053426.jpg)
 
 note that char #10 is "\n" or newline
 now for example if you want to print up-arrow symbole:
 tft.print((char)23);
 
-![gfx-example-simplex] /IMG_20200222_053426.jpg
+![](/IMG_20200222_053426.jpg)
