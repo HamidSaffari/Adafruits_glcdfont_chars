@@ -8,6 +8,8 @@ for(byte x=0; x<255; x++) {
 
 ![](/IMG_20200222_053426.jpg)
 
-note that char #10 is "\n" or newline character
-now for example if you want to print up-arrow symbole:
+note that char #10 is "\n" or newline character.
+and char #13 is "\r" or carriage return. which both of them do not print anything but should counted.
+now for example if you want to print up-arrow symbol:
+
 tft.print((char)24);
