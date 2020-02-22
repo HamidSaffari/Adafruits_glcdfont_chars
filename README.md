@@ -1,7 +1,7 @@
 # Adafruits_glcdfont_chars
 Adafruit's glcdfont.c characters
 Printing all characters of Adafruit's GFX library (https://github.com/adafruit/Adafruit-GFX-Library/blob/master/glcdfont.c)
-using this code 
+using this code: \n
 for(byte x=0; x<255; x++) {
     tft.print((char)x);
   }
